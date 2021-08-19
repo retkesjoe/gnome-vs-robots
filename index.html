@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+	<meta charset="UTF-8"/>
+	<script src="game.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="content">
+		<h1>GNOME VS. ROBOTS</h1>
+		<h2>The game board size
+			<select id="tableSizeN"  size="1">
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+			</select>x
+			<select id="tableSizeM" size="1">
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+			</select>		Number of teleports
+			<select id="teleport" size="1">
+				<option value="1">HARD (1)</option>
+				<option value="3">MEDIUM (3)</option>
+				<option value="5">EASY (5)</option>
+			</select>
+			<span>Points:&nbsp;&nbsp;&nbsp;</span>
+			<span id="pts"></span>
+			<span>Robots:&nbsp;&nbsp;&nbsp;</span>
+			<span id="rob"></span>
+			<span>Teleports:&nbsp;&nbsp;&nbsp;</span>
+			<span id="tel"></span>
+		</h2> 
+		<input type="button" id="generate" value="Pálya készítése"/>
+		<div id="placeHolder"></div>
+	</div>
+	<div id="rules">
+		<h1 id="rule">
+			Rules
+		</h1>
+		<p>Movements:
+			<p>-Cursor keys</p>
+			<p>-"T" for teleport</p>
+			<p>-"Space" for stay</p>
+			<p>-Numpad "1,2,3,4,6,7,8,9".</p>
+		</p>
+	</div>
+</body>
+
+
+
+</html>

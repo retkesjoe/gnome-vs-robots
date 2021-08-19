@@ -1,0 +1,34 @@
+#content{
+	background-color: pink;
+	width: 900px;
+	height: 620px;
+	position: absolute;
+	border: 1px;
+}
+
+h1 {
+	text-align: center;
+}
+
+span{
+	font-size: 12px;
+}
+#pts,  #rob, #tel{
+	color: #0000FF;
+}
+
+#rules{
+	width: 400px;
+	height: 620px;
+	position: absolute;
+	left: 905px;
+	background-color: black;
+}
+
+#rule{
+	color: white;
+}
+
+p{
+	color: yellow;
+}
